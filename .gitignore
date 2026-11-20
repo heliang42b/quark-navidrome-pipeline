@@ -1,0 +1,21 @@
+# 运行产物
+data/
+*.log
+*.part
+
+# 登录态与凭据，绝对不能提交
+*_cookie.txt
+quark_token.txt
+*.cookie
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
